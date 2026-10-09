@@ -1,26 +1,11 @@
-.home-section {
-    position: relative;
-    min-height: 300px;
-    overflow: hidden;
-
-    background-image: url('https://raw.githubusercontent.com/jerche943/jerche943.github.io/main/webPage/background.jpg');
-    background-size: cover;
-    background-position: 40% 23%;
-    background-repeat: no-repeat;
-}
-
 .home-section__bg {
-    display: none;
+    position: absolute;
+    inset: 0;
+    background-color: red !important;
+    z-index: 0;
 }
 
 .home-section__overlay {
     position: relative;
     z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 300px;
-    text-align: center;
-    color: white;
 }
