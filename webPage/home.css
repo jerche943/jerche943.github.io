@@ -1,7 +1,11 @@
 .home-section__bg {
     position: absolute;
     inset: 0;
-    background-color: red !important;
+    background-color: transparent;
+    background-image: url('https://raw.githubusercontent.com/jerche943/jerche943.github.io/main/webPage/background.jpg') !important;
+    background-size: cover;
+    background-position: 40% 23%;
+    background-repeat: no-repeat;
     z-index: 0;
 }
 
